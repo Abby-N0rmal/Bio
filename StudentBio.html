@@ -3,27 +3,42 @@
 
 <head>
 	<title>Bio</title>
+	<meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
 </head>
 
 <body>
-	<h1> Student Bio</h1>
-	<br>
-	<h2> Amber Girard</h2>
-	<br><br>
-	<img src="https://avatars1.githubusercontent.com/u/33493282?s=400&u=e42790244ba7341f34bf660edd3f5e57e929679b&v=4" atl="Me" />
-	<br><br>
-	<p> I'm shy and easygoing, and I have a lot of hobbies. I've written a few books that I'm working on getting published, I love to draw, paint, play guitar, video games, etc.</p>
-	<p> I started coding a dayz server a couple years ago and loved it. I'm really excited about this class!</p>
-	<br><br><br><br>
+	<header>
+		<h1> Student Bio</h1>
+	</header>
 
-	<h2>Contact Info</h2>
-	<br>
-	<ul>
-		<li> Email: <a href="mailto://RhadorasRequiem@gmail.com">RhadorasRequiem@gmail.com</a> </li>
-		<li> Github: <a href="https://github.com/Abby-N0rmal"> https://github.com/Abby-N0rmal </a> </li>
-		<li> Portfolio: Coming Soon </li>
+	<div class="container">
+
+		<section id="main-bio">
+
+		<h2> Amber Girard</h2>
 	
+		<img src="https://avatars1.githubusercontent.com/u/33493282?s=400&u=e42790244ba7341f34bf660edd3f5e57e929679b&v=4" atl="Me" />
+	
+		<p> I'm shy and easygoing, and I have a lot of hobbies. I've written a few books that I'm working on getting published, I love to draw, paint, play guitar, video games, etc.</p>
+		<p> I started coding a dayz server a couple years ago and loved it. I'm really excited about this class!</p>
+		</section>
 
+		<section id="contact-info">
+			<h2>Contact Info</h2>
+			<ul>
+				<li><strong>Email:</strong> <a href="mailto://RhadorasRequiem@gmail.com">RhadorasRequiem@gmail.com</a> </li>
+				<li><strong>Github:</strong> <a href="https://github.com/Abby-N0rmal"> https://github.com/Abby-N0rmal </a></li>
+				<li><strong>Portfolio:</strong> <a href="#">Coming soon</a></li>
+			</ul>
+		</section>
+	</div>
+	
 </body>
 
 </html>
